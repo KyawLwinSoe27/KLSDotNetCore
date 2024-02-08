@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AdoDotNetExamples\" />
+    <None Remove="DapperExamples\" />
+    <None Remove="Models\" />
+    <None Remove="EFCoreExamples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdoDotNetExamples\" />
+    <Folder Include="DapperExamples\" />
+    <Folder Include="Models\" />
+    <Folder Include="EFCoreExamples\" />
+  </ItemGroup>
+</Project>
