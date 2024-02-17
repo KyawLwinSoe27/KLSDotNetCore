@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.ConsoleApp", "DotNetTraining.ConsoleApp\DotNetTraining.ConsoleApp.csproj", "{A8B36548-77D1-41D1-8E74-BA3EAA54C3EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.WebApi", "DotNetTraining.WebApi\DotNetTraining.WebApi.csproj", "{89E26A09-D52D-478C-B404-67B9D9BBD497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8B36548-77D1-41D1-8E74-BA3EAA54C3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B36548-77D1-41D1-8E74-BA3EAA54C3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B36548-77D1-41D1-8E74-BA3EAA54C3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

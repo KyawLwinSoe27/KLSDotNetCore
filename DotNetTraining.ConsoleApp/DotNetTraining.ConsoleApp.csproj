@@ -13,17 +13,20 @@
     <PackageReference Include="Dapper" Version="2.1.28" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="AdoDotNetExamples\" />
     <None Remove="DapperExamples\" />
     <None Remove="Models\" />
     <None Remove="EFCoreExamples\" />
+    <None Remove="HttpClientExamples\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AdoDotNetExamples\" />
     <Folder Include="DapperExamples\" />
     <Folder Include="Models\" />
     <Folder Include="EFCoreExamples\" />
+    <Folder Include="HttpClientExamples\" />
   </ItemGroup>
 </Project>
