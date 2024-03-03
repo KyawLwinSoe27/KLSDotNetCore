@@ -6,6 +6,10 @@ using DotNetTraining.ConsoleApp.AdoDotNetExamples;
 using DotNetTraining.ConsoleApp.DapperExamples;
 using DotNetTraining.ConsoleApp.EFCoreExamples;
 using DotNetTraining.ConsoleApp.HttpClientExamples;
+using DotNetTraining.ConsoleApp.Models;
+using DotNetTraining.ConsoleApp.RefitExamples;
+using DotNetTraining.ConsoleApp.RestClientExamples;
+using Newtonsoft.Json;
 
 Console.WriteLine("Hello, World!");
 
@@ -38,11 +42,33 @@ Console.WriteLine("Hello, World!");
 //eFCoreExamples.Update(19, "This is title Edited", "This is the author edited", "this is content edited");
 //eFCoreExamples.Delete(19);
 
+
+
+//BlogModel blog = new BlogModel();
+//blog.BlogAuthor = "Test";
+//blog.BlogContent = "Test";
+//blog.BlogTitle = "Test";
+
+//string res = JsonConvert.SerializeObject(blog);
+
+//Console.WriteLine(res);
+
+//BlogModel resBlog = JsonConvert.DeserializeObject<BlogModel>(res)!;
+
+//Console.WriteLine(resBlog.BlogTitle);
+//Console.WriteLine(resBlog.BlogAuthor);
+//Console.WriteLine(resBlog.BlogContent);
+
 Console.WriteLine("Waiting for API ...");
 Console.ReadKey();
 
-HttpClientExample httpClientExample = new HttpClientExample();
-await httpClientExample.Run();
+//HttpClientExample httpClientExample = new HttpClientExample();
+//await httpClientExample.Run();
 
+//RestClientExample restClientExample = new RestClientExample();
+//await restClientExample.Run();
+
+RefitExample refitClientExample = new RefitExample();
+await refitClientExample.Run();
 
 Console.ReadKey();

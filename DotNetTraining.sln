@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.ConsoleApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.WebApi", "DotNetTraining.WebApi\DotNetTraining.WebApi.csproj", "{89E26A09-D52D-478C-B404-67B9D9BBD497}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTraining.BirdWebApi", "DotNetTraining.BirdWebApi\DotNetTraining.BirdWebApi.csproj", "{99F86CD0-2931-4878-9751-120AE151303E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E26A09-D52D-478C-B404-67B9D9BBD497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F86CD0-2931-4878-9751-120AE151303E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F86CD0-2931-4878-9751-120AE151303E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F86CD0-2931-4878-9751-120AE151303E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F86CD0-2931-4878-9751-120AE151303E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
