@@ -40,6 +40,7 @@ function getItem() {
        `
     }
     $('#tBody').html(htmlRow);
+    new DataTable('#table');
 }
 
 function edit(id) {
